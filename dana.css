@@ -117,6 +117,9 @@ nav .fa{
     display: none;
 }
 @media(max-width:700px){
+     .header{
+        overflow: hidden;
+    }
     .textbox h1{
         font-size: 20px;
     }
