@@ -11,6 +11,7 @@
     background-image: url(dananew.jpeg);
     background-size: contain;
     position: relative;
+    background-repeat: no-repeat;
     }
 .container {
     display: inline-block;
