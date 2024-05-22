@@ -6,10 +6,9 @@
 }
 .header{
     min-height:100vh;
-    width:100%;
-    height: 100%;
+   /* width:100%;
+    height: 100%;*/
     background-image: url(dananew.jpeg);
-
     background-size: cover;
     position: relative;
     }
@@ -117,7 +116,8 @@ nav .fa{
     display: none;
 }
 @media(max-width:700px){
-     .header{
+    
+    .header{
         overflow: hidden;
     }
     .textbox h1{
@@ -349,7 +349,7 @@ border-radius: 50%;
 #cta1{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(danahomepics\ -\ Copy.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.7)),url(danahomepics\ -\ Copy.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -406,4 +406,28 @@ border-radius: 50%;
         position: relative;
         margin-left: 4%;
         }
+}
+.footer1{
+    border: 1px solid transparent;
+    background-color: #1B263B;
+    color: #fff;
+    padding: 40px;
+}
+.footer1 a{
+    color: #fff;
+    margin-top: 100px;
+    padding-right: 15px;
+}
+.footer1 p{
+    padding-top: 30px;
+    color: #fff;
+}
+.fstuff{
+    margin-left: 37%;
+    margin-top: 5%;
+}    
+@media(max-width:700px){
+    .fstuff{
+        margin-left: 12%;
+    }
 }
