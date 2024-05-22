@@ -154,10 +154,6 @@ nav .fa{
 @media(min-width:700px){
     .header background-image{width: fit-content;}
 }
-@media(max-width:600px){
-    .header background-image{background-size: 600px;
-    }
-}
 .hero-btn:hover{
     background-color: #E0E1DD;
     color: #1d3557;
