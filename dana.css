@@ -9,9 +9,8 @@
     width:100%;
     height: 100%;
     background-image: url(dananew.jpeg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    background-repeat: no-repeat;
     }
 .container {
     display: inline-block;
@@ -121,9 +120,11 @@ nav .fa{
     .header{
         min-height:100vh;
         overflow: hidden;
-         width:100vw;
     height: 100%;
+        width:100vw;
     background-image: url(dananew.jpeg);
+        background-size: cover;
+         background-repeat: no-repeat;
     }
     .textbox h1{
         font-size: 20px;
