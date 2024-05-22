@@ -6,8 +6,8 @@
 }
 .header{
     min-height:100vh;
-   /* width:100%;
-    height: 100%;*/
+    width:100%;
+    height: 100%;
     background-image: url(dananew.jpeg);
     background-size: cover;
     position: relative;
@@ -119,6 +119,9 @@ nav .fa{
     
     .header{
         overflow: hidden;
+         width:100%;
+    height: 100%;
+    background-image: url(dananew.jpeg);
     }
     .textbox h1{
         font-size: 20px;
