@@ -386,9 +386,6 @@ border-radius: 50%;
     font-weight: 600;
 }
 @media-screen(min-width:320px)and(max-width:768px){
-    body{
-        width: 100%;
-    }
     .tprice{
         margin:auto;
         display:flex;
