@@ -390,7 +390,8 @@ border-radius: 50%;
         width: 100%;
     }
     .tprice{
-        margin: auto;
+        margin-left: auto;
+        margin-right:auto;
         justify-content:center;
         align-item: center;
     }
