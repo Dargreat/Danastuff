@@ -11,7 +11,7 @@
     background-image: url(dananew.jpeg);
     background-size: cover;
     position: relative;
-}
+    }
 .container {
     display: inline-block;
     cursor: pointer;
@@ -246,12 +246,14 @@ nav .fa{
     padding-top: 100px;
     background-color: white;
     color: black;
-    margin-left: -20%;
+    margin: auto;
+    align-items: center;
 }
 #prices h1{
     font-size: 36px;
     font-weight: 600;
-    margin-left: 18%;
+    margin: auto;
+    align-items: center;
 }
 #prices p{
     color: black;
@@ -259,11 +261,12 @@ nav .fa{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-    margin-left: 20%;
+    margin: auto;
+    text-align: center;
 }
 .tprice{
-    margin-left: 40%;
-    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
 
 }
 #about{
@@ -388,10 +391,7 @@ border-radius: 50%;
 @media-screen(min-width:320px)and(max-width:768px){
     .tprice{
         margin: auto;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding: 50px;
+        align: center;
     }
 }
 .footer .fa-brands{
@@ -404,7 +404,6 @@ border-radius: 50%;
     color: #fff;
 }
 @media(max-width:700px){
-    .bod{width: fit-content;}
 
     nav img{
         width: 130px;
