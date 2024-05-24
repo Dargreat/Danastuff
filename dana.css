@@ -437,4 +437,9 @@ border-radius: 50%;
     .bod{ margin-left:auto;
         margin-right:auto;
         }
+    .circle{
+        justify-content:center;
+        align-items:center;
+        margin:auto;
+    }
 }
