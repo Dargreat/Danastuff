@@ -387,7 +387,7 @@ border-radius: 50%;
 }
 @media-screen(min-width:320px)and(max-width:768px){
     .tprice{
-        margin:auto;
+        margin-left:2%;
         align: center;
     }
 }
