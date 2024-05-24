@@ -433,3 +433,8 @@ border-radius: 50%;
         margin-left: 12%;
     }
 }
+@media-screen(min-width:320px)and(max-width:768px){
+    .bod{ margin-left:auto;
+        margin-right:auto;
+        }
+}
