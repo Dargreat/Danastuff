@@ -11,7 +11,7 @@
     background-image: url(dananew.jpeg);
     background-size: cover;
     position: relative;
-    }
+}
 .container {
     display: inline-block;
     cursor: pointer;
@@ -386,10 +386,12 @@ border-radius: 50%;
     font-weight: 600;
 }
 @media-screen(min-width:320px)and(max-width:768px){
-    .#prices{
-        margin-left:2%;
-        align: center;
+    .tprice{
+        margin: auto;
+        align-items: center;
         text-align: center;
+        justify-content: center;
+        padding: 50px;
     }
 }
 .footer .fa-brands{
