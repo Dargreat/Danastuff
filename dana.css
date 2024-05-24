@@ -347,7 +347,7 @@ border-radius: 50%;
     margin: auto;
 }
 .pd1{
-    margin:auto;
+    margin-left:auto;
 }
 #cta1{
     margin: 100px auto;
@@ -401,9 +401,7 @@ border-radius: 50%;
 }
 @media(max-width:700px){
     .bod{width: fit-content;}
-    .circle{
-        margin-left: 35%;
-    }
+
     nav img{
         width: 130px;
         position: relative;
