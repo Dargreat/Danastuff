@@ -388,9 +388,7 @@ border-radius: 50%;
 @media-screen(min-width:320px)and(max-width:768px){
     .tprice{
         margin:auto;
-        display:flex;
-        justify-content:center;
-        align-item: center;
+        align: center;
     }
 }
 .footer .fa-brands{
