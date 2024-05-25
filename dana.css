@@ -49,6 +49,9 @@ width: 200px;
 position: relative;
 margin-left: 10%;
 }
+.small{
+    display: none;
+}
 .nav-links{
 flex: 1;
 text-align: right;
@@ -126,6 +129,16 @@ nav .fa{
         background-size: cover;
          background-repeat: no-repeat;
     }
+    nav img{
+        display: none;
+    }
+    .small{
+        display: inline;
+        width: 120px;
+        justify-content: left;
+        float: left;
+        margin-left: -150%;
+    }
     .textbox h1{
         font-size: 40px;
     }
@@ -156,6 +169,7 @@ nav .fa{
 .nav-links ul{
     padding: 30px;
 }
+
 }
 @media(min-width:700px){
     .header background-image{width: fit-content;}
@@ -406,10 +420,7 @@ border-radius: 50%;
 #cta1 .fa-brands{
     color: #fff;
 }
-@media(min-width:320px)and(max-width:768px){
 
-
-}
 .footer1{
     border: 1px solid transparent;
     background-color: #1B263B;
